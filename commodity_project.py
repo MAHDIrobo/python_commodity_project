@@ -3,6 +3,7 @@ import requests
 import sys
 from bs4 import BeautifulSoup
 import mysql.connector
+import re
 
 
 
