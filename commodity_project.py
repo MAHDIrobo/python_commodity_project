@@ -19,7 +19,7 @@ sys.stdout.reconfigure(encoding='utf-8')
 #we need to connect to the mysql to add the data to mysql
 print("Connecting to the database.......")
 connection=mysql.connector.connect(
-    user="root",host="127.0.0.1",password="13831349mM@#",database="commodity"
+    user="root",host="127.0.0.1",password="your password",database="commodity"
 )
 print("Connected to the database")
 
